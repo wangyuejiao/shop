@@ -1,0 +1,759 @@
+*{
+	       padding: 0;
+	       margin: 0;
+        }
+        ul,li,ol{
+         list-style:none;
+        }
+        #banner{
+           height:1330px;
+           
+        }
+        #big{
+           height: 170px;
+        }
+        .header{
+            width: 1200px;
+            height:130px;
+            margin: 0 auto;
+            background-color: white;
+            z-index:999;
+        }
+        .one{
+            height:43px;
+        }
+        .q{
+            width:170px; 
+            height:33px;
+            float: left;
+            font-size: 15px;
+            color: #9f9894;
+            margin-top: 10px;
+        }
+        .r{
+            width: 1030px;
+            height:43px;
+            /*background-color: black;*/
+            float: left;
+        }
+
+        .two{
+            height:62px;
+        }
+        .two1{
+            width:170px;
+            height:62px;
+            float: left;
+        }
+        .two2{
+            width:700px;
+            height:62px;
+            float: left;
+        }
+        .t21{
+            float: left;
+            width: 500px;
+            height:37px;
+            border:2px solid #fe6c00;
+            margin-left: 60px;
+        }
+        .t22{
+           float:left;
+           width:85px; 
+           height:41px;
+           background-color: #fe6c00;
+           text-align: center;
+           line-height: 41px;
+        }
+        .t22 a{
+             color: white;
+             text-decoration: none;
+        }
+
+        .two3{
+            width: 330px;
+            height:62px;
+            float: left;
+        }
+        .t31{
+            width: 85px;
+            height:40px;
+            border:1px solid gray;
+            float: left;
+        }
+        .t311{
+            font-size: 12px;
+            color: gray;
+        }
+        .t32{
+            width: 85px;
+            height:40px;
+            border:1px solid gray;
+            float: left;
+        }
+        .t321{
+          font-size: 12px;
+          color: gray;
+        }
+
+
+        .t33{
+            width: 85px;
+            height:42px;
+            background-color:#fe6c00;
+            float: left;
+        }
+        .three{
+           height:25px;
+        }
+        .three1{
+           width:700px;
+           height:25px;
+           margin-left: 220px;
+        }
+        .three1 a{
+          text-decoration: none;
+          font-size: 12px;
+          line-height: 25px;
+
+        }
+        .three1 img{
+          padding-left:10px;
+          padding-right: 5px;
+          padding-top: 5px;
+        }
+
+        .four{
+           height:40px;
+           background-color: black;
+        }
+        .four1{
+          height: 40px;
+          width: 1200px;
+          margin: 0 auto;
+        }
+        .four11{
+          height:40px;
+          width: 1000px;
+          float:left;
+        }
+        .f1{
+            width: 100px;
+            height:40px;
+            float: left;
+            margin-right: 25px;
+            background-color: red;
+        }
+        .f2{
+            text-decoration: none;
+            line-height: 40px;
+            color: white;
+            padding-left: 30px;
+        }
+        .f3{
+            width: 100px;
+            height:40px;
+            float: left;
+            margin-right: 25px;
+        }
+        .four12{
+            width: 200px;
+            height:40px;
+            float: left;
+        }
+        .middle{ 
+            height:780px;
+            background-color:#f8f7f6;
+        }
+        .five{
+            width: 1200px;
+            height:780px;
+            margin: 0 auto;
+        }
+        .six{
+            width: 1200px;
+            height: 40px;
+            background-color: #f8f7f6;
+        }
+        .six1{
+            height:40px;
+            line-height: 40px;
+        }
+        .seven{
+            width: 1200px;
+            height: 630px;
+        }
+        .seven1{
+            width:993px; 
+            height:630px;
+            background-color: white;
+            float: left;
+        }
+        /*//左边大框*/
+        .s1{
+          width: 450px;
+          height: 630px;
+          float:left;
+        }
+        /*//右边大框*/
+        .s2{
+          width: 543px;
+          height: 630px;
+          float:left;
+          background-color:white;
+        }
+        /*//喷雾框*/
+        #box{
+          /*width:846px;*/
+          width: 410px;
+          height:410px;
+          position:relative;
+          margin: 0;
+        }
+        #s3{
+          margin-top: 22px;
+          margin-left: 26px;
+          width:408px;
+          height:408px;
+          border:1px solid gray;
+          position: absolute;
+          left: 0;
+          top:0;
+        }
+        #s33{
+          width:112.5px;
+          height:112.5px;
+          position:absolute;
+          left:0;
+          top:0;
+          background:#CCC;
+          opacity:0.6;
+          cursor: move;
+          display:none; 
+          filter:alpha(opacity=40);
+        }
+        #s34{
+          position:absolute;
+          right:-28px;
+          top:20px;
+          display:none; 
+         /* width:408px;
+          height:408px;*/
+          overflow:hidden;
+          border: 1px solid gray;
+          width: 410px;
+          height: 410px;
+        }
+        #s35{
+          position:absolute;
+          /*left:0;
+          top:0;*/
+          width: 1435px;
+          height: 1435px;
+          left: -100px;
+          top:-100px;
+          display: block;
+        }
+        #s40{
+          display: none;
+          position:absolute;
+          /*left:0;
+          top:0;*/
+          width: 1435px;
+          height: 1435px;
+          left: -100px;
+          top:-100px;
+        }
+        /*//放大镜下面的框*/
+        .s4{
+          width: 408px;
+          height:65px;
+          margin-top: 22px;
+          margin-left: 26px;
+        }
+        #s36{
+          width: 55px;
+          height: 55px;
+          border: 1px solid #fe6c00;
+        }
+        #s37{
+          /*width: 55px;
+          height: 55px;
+          border: 1px solid #fe6c00;*/
+        }
+        #che{
+          display: block;
+        }
+        #che1{
+          display: none;
+        }
+       /* //放大镜下面图片位置*/
+        .s5{
+          padding-left: 230px;
+        }
+        /*//s6-s16是右边边框里的设计*/
+        .s6{
+          width:543px; 
+          height:25px;
+          margin-top: 22px;
+        }
+        .s7{
+          width:543px; 
+          height:25px;
+          /*background-color: yellow;*/
+          font-size: 13px;
+          line-height: 25px;
+          color: gray;
+        }
+        .s8{
+          width:543px; 
+          height:25px;
+          /*background-color: red;*/
+          font-size: 13px;
+          line-height: 25px;
+          color: gray;
+        }
+        .s9{
+          width:543px; 
+          height:50px;
+         /* background-color: green;*/
+        }
+        .p1{
+          margin-top: 25px;
+          margin-left: 20px;
+          float: left;
+          font-size: 15px;
+        }
+        .p2{
+           margin-top: 23px;
+           margin-left: 55px;
+           float: left;
+           font-size: 20px;
+           color: red;
+        }
+        .p3{
+           margin-top: 27px;
+           margin-left: 20px;
+           float:left;
+           font-size: 13px;
+           text-decoration: line-through;
+        }
+        .s10{
+          width:543px;
+          height:34px;
+        }
+        .p4{
+          line-height: 34px;
+          margin-left: 20px;
+          float: left;
+          font-size: 15px;
+        }
+        .p5{
+           line-height: 34px;
+           margin-left: 20px;
+           float: left;
+           font-size: 15px;
+        }
+        .p6{
+          line-height: 34px;
+           margin-left: 20px;
+           float:left;
+           font-size: 15px;
+        }
+        .s11{
+          width:543px;
+          height:42px;
+        }
+        .p7{
+          width:500px; 
+          height:42px;
+          border:1px solid #f8f7f6;
+          background-color: #f8f7f6;
+        }
+       /* 150-200ml的大框*/
+        .s12{
+          width: 543px;
+          height:67px;
+        }
+       /* 化妆品净含量*/
+        .p11{
+         width: 80px;
+         height: 32px;
+         float: left;
+         margin-top: 20px;
+         margin-left: 20px;
+         line-height: 32px;
+         font-size: 12px;
+        }
+        /*150ml*/
+        #p12{
+         width: 60px;
+         height: 30px;
+         float: left;
+         margin-top: 25px;
+         margin-left: 20px;
+         line-height: 30px;
+         font-size: 15px;
+         display: block;
+         border: 1px solid #ff0556;
+         text-align: center;
+        }
+        /*200ml*/
+        #p13{
+         width: 60px;
+         height: 30px;
+         float: left;
+         margin-top: 25px;
+         margin-left: 15px;
+         line-height: 30px;
+         font-size: 15px;
+         text-align: center;
+        }
+        .p8{
+          width: 30px;
+          height: 20px;
+          border: 1px solid #ff0556;
+          float: left;
+          margin-top: 15px;
+          font-size: 13px;
+          margin-left: 20px;
+          background-color: #ff0556;
+          color: white;
+          padding-left: 3px;
+        }
+        .p9{
+          width: 30px;
+          height:20px;
+          border: 1px solid #ff0556;
+          float: left;
+          margin-top: 15px;
+          font-size: 13px;
+          color: #ff0556;
+        }
+        .p10{
+          float: left;
+          margin-top: 15px;
+          font-size: 13px;
+          margin-left: 20px;
+        }
+        /*数量的大框*/
+        .s13{
+          width: 543px;
+          height:52px;
+        }
+        .p14{
+          width: 40px;
+          height:30px;
+          float: left;
+          margin-left: 20px;
+          /*background-color:pink;*/
+          margin-top: 10px;
+          font-size: 13px;
+          line-height: 30px;
+        }
+        /*数量小框p15-p19*/
+        .p15{
+          width: 110px;
+          height:30px;
+          float: left;
+          margin-top: 10px;
+          font-size: 13px;
+          margin-left: 70px;
+        }
+        /*减号*/
+        #p17{
+          width: 23px;
+          height: 28px;
+          float: left;
+          border: 1px solid gray;
+          line-height: 28px;
+          text-align: center;
+        }
+       /* 数量*/
+        #p18{
+          width: 56px;
+          height: 26px;
+          float: left;
+          line-height: 26px;
+          text-align: center;
+          font-size: 15px;
+        }
+        /*加号*/
+        #p19{
+         width: 23px;
+         height: 28px;
+         float: left;
+         border: 1px solid gray;
+         line-height: 28px;
+         text-align: center;
+        }
+        .p16{
+          width:90px; 
+          height:30px;
+          float: left;
+          margin-top: 10px;
+          font-size: 13px;
+          line-height: 30px;
+          margin-left: 20px;
+        }
+        /*倒数第三个大框p20-p22*/
+        .s14{
+          width:543px;
+          height:30px;
+        }
+        .p20{
+          width:40px; 
+          height：20px;
+          float: left;
+          margin-top: 10px;
+          margin-left: 20px;
+          font-size: 13px;
+        }
+        .p21{
+          width: 15px;
+          height: 20px;
+          float: left;
+          margin-top: 10px;
+          margin-left: 65px;
+          font-size: 13px;
+          color: #ff0556;
+        }
+        .p22{
+          width: 40px;
+          height: 20px;
+          float: left;
+          margin-top: 10px;
+          font-size: 13px;
+        }
+        /*倒数第二个大框*/
+        .s15{
+          width:543px; 
+          height:38px;
+        }
+        .p23{
+         width: 55px;
+         height: 20px;
+         float: left;
+         font-size: 13px;
+         margin-left: 125px;
+         margin-top: 10px;
+        }
+        #p24{
+         width: 70px;
+         height: 20px;
+         float: left;
+         font-size: 15px;
+         margin-top: 10px;
+         margin-left: 20px;
+         color: orange;
+        }
+        .s16{
+          width:543px; 
+          height:242px;
+        }
+        /*蒙罩*/
+        #meng{
+          position:fixed;
+          top:0px;
+          left:0px;
+          width: 100%;
+          height: 800px;
+          background-color:gray;
+          opacity:0.5;
+          display: none;
+        }
+        /*购物车*/
+        #gou{
+          display: none;
+          width: 400px;
+          height:200px;
+          position: fixed;
+          top:300px;
+          left: 550px;
+          border: 3px solid #aca7d3;
+          background-color: white;
+        }
+        #gou1{
+         width: 30px;
+         height:40px;
+         float: left;
+         font-size: 30px;
+         padding-left: 370px;
+        }
+        #gou2{
+         width: 400px;
+         height:82px; 
+         float: left;
+        }
+        #gou3{
+         width: 400px;
+         height:78px;
+         float: left;
+        }
+        #gou31{
+         width:140px;
+         height:40px;
+         border: 1px solid #ff0556;
+         float: left;
+         border-radius: 3px;
+         margin-left:40px;
+         font-size: 20px;
+         color: #ff0556;
+         text-align: center;
+         line-height: 40px;
+        }
+        #gou32{
+         width:140px;
+         height:40px;
+         border: 1px solid #ff0556;
+         float: left;
+         border-radius: 3px;
+         margin-left:40px;
+         font-size: 20px;
+         color: white;
+         text-align: center;
+         line-height: 40px;
+         background-color: #ff0556; 
+        }
+        .p25{
+          width: 150px;
+          height: 40px;
+          float: left;
+          margin-left: 20px;
+          border-radius: 5px;
+          margin-top: 10px;
+          border: 1px solid #ff0556;
+          line-height: 40px;
+          text-align: center;
+          color: #ff0556;
+          text-decoration: none;
+        }
+        .p26{
+          width: 150px;
+          height: 40px;
+          background-color:#ff0556;
+          float: left;
+          margin-left: 20px;
+          border-radius: 5px;
+          margin-top: 10px;
+          color: white;
+          line-height: 40px;
+          text-align: center;
+          text-decoration: none;
+        }
+        .seven2{
+           width:180px; 
+           height:630px;
+           /*background-color: pink;*/
+           float:left;
+           margin-left: 27px;
+        }
+        .eight{
+            width: 1200px;
+            height: 110px;
+            background-color: blue;
+        }
+        .eight img{
+            width: 1200px;
+            height:110px;
+        }
+        .big2{
+            height:380px;
+            background-color:#f8f7f6; 
+        }
+        .last{
+            width: 1200px;
+            height: 380px;
+            margin:0 auto;
+        }
+        .eigh{ 
+            height:180px;
+            background-color:#f8f7f6; 
+        }
+        .nine{
+            height:200px;
+            background-color:#f8f7f6 ;
+        }
+        .i{
+           float:left;
+           width:170px;
+           height: 180px;
+           text-align: center;
+        }
+        .j{
+           float:left;
+           width:800px;
+           height: 180px;
+           border-bottom:1px solid gray;
+        }
+        .j1{
+             height: 180px;
+             width: 133px;
+             float:left;
+        }
+        .j11{
+          font-size: 15px; 
+          padding-top: 25px;
+          padding-left: 20px;
+        }
+        .j12{
+          font-size: 10px;
+          padding-left: 20px;
+          padding-top: 13px;
+          color: gray;
+        }
+
+        .k{
+          float:left;
+          width:230px;
+          height: 155px; 
+          text-align: center;
+          padding-top: 25px;
+          border-bottom:1px solid gray;
+        }
+        .l{
+          width:1200px;
+          height:35px;
+          float: left;
+          text-align: center;
+          color: gray;
+          line-height: 35px;
+        }
+        .l1{
+          padding-left: 10px;
+          padding-right: 10px;
+          line-height: 35px;
+        }
+        .m{
+          width:1200px;
+          height:28px;
+          text-align: center;
+          color: gray;
+          float: left;
+          font-size: 12px;
+          line-height: 28px;
+        }
+        .n{
+          width:1200px;
+          height:25px;
+          font-size: 12px;
+          float: left;
+          text-align: center;
+          color: gray;
+        }
+        .o{
+          width:1200px;
+          height:25px;
+          text-align: center;
+          line-height: 25px;
+          color: gray;
+          font-size: 12px;
+          float: left;
+        }
+        .p{
+         width:1200px;
+         height:65px;
+         float: left;
+         text-align: center;
+         padding-top: 20px;
+        }
