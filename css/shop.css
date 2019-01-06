@@ -1,4 +1,4 @@
-      *{
+*{
 	       padding: 0;
 	       margin: 0;
         }
@@ -18,6 +18,16 @@
           margin: 0 auto;
           position: fixed;
         }*/
+        .header1{
+          width: 100%;
+          height: 130px;
+          margin: 0 auto;
+        }
+        .header2{
+          width: 100%;
+          height: 130px;
+          background-color: white;
+        }
       	.header{
           background-color: white;
       		width: 1200px;
@@ -159,6 +169,8 @@
            height: 550px;
            background-color: #f8f7f6;
            border-top: 1px solid;
+          /* color:#fe6c00;*/
+           /*border:1px solid;*/
       	}
       	.middle{
       		height:550px;
@@ -268,7 +280,7 @@
         .nav{
           position:absolute;
           left: 580px;
-          top:500px;
+          bottom: 200px;
         }
         .nav>li{
           float: left;
