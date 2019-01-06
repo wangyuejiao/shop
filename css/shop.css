@@ -280,7 +280,7 @@
         .nav{
           position:absolute;
           left: 580px;
-          bottom: 200px;
+          top: 500px;
         }
         .nav>li{
           float: left;
