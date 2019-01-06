@@ -11,11 +11,12 @@
 <body>
     <div id="banner">
       <div id="big">
-       
-        <div class="header">
-       	   <div class="one">
-       	   	     <div class="q">帮5买，享帮帮</div>
-       	   	     <div class="r">
+       <div class="header1">
+        <div class="header2">
+          <div class="header">
+           <div class="one">
+                 <div class="q">帮5买，享帮帮</div>
+                 <div class="r">
                     <a class="top_QQ lo" href="#" style="width:19px;height:19px;background:url(./img/common_min.png) 0 -31px; display:block; float:left; margin-left:320px;margin-top:10px;" ></a>
                     <a class="top_weixin" href="#" style="width:19px;height:19px;background:url(./img/common_min.png) 0 -53px; display:block;  float:left;margin-left:15px;margin-top:10px;"></a>
                     <a class="top_weibo" href="#" style="width:19px;height:19px;background:url(./img/common_min.png) 0 -75px; display:block;  float:left;margin-left:15px;margin-top:10px;"></a>
@@ -31,8 +32,8 @@
                     <a href="cart.html" style="height:14px;padding-left:24px;background:url(./img/gouwuche.jpg) 0px -1px no-repeat; display:block;  float:left;font-size:10px;margin-left:15px;margin-top:10px;line-height:19px;color:gray;">购物车</a>
                     <a href="#"  style="float:left;font-size:10px;margin-left:15px;margin-top:10px;line-height:19px;color:orange;">0</a>
                  </div>
-       	   </div>
-       	   <div class="two">
+           </div>
+           <div class="two">
               <div class="two1"><img src="img/logo_03.jpg"></div>
               <div class="two2">
                    <input type="text" placeholder="输入商品网址或关键字，直通全网，快速帮5购!" class="t21">
@@ -54,7 +55,7 @@
                   </div>
               </div>
            </div>
-       	   <div class="three">
+           <div class="three">
               <div class="three1">
                    <a href="" style="color:red;">洗发护发</a><img src="img/首页_03.gif">
                    <a href="" style="color:red;" >日本纸尿裤</a><img src="img/首页_03.gif">
@@ -71,6 +72,10 @@
               </div>
            </div>
         </div>
+        </div>
+          
+       </div>
+       
     
          <div class="four">
              <div class="four1">全部商品分类</div>
@@ -389,8 +394,6 @@
       }
     }
     timer = setInterval(next, 1000);
-
-
     //右边小框
      var g=document.getElementById("g");
      var con1=document.getElementById("con1");
@@ -412,7 +415,6 @@
     function Up(){
          w=setInterval("ScrollUp()",speed);
     }
-
   //价格变动
   var sty=document.getElementById("sty");
   var option=document.getElementsByTagName("option");
@@ -426,7 +428,6 @@
   }
   }
   
-
   // 右侧移入移出框
   var jia1=document.getElementById("jia1");
   var jia2=document.getElementById("jia2");
@@ -442,7 +443,6 @@
         jia1.style.position="fixed";
         animate(jia1,{top:80,right:-92});
   }
-
   jia2.onmouseover=function(){
         jia2.style.position="fixed";
         animate(jia2,{top:185,right:0});
@@ -462,7 +462,6 @@
         animate(jia3,{top:327,right:-92});
         xi2.style.display="none";
         xi3.style.display="block";
-
   }
   jia4.onmouseover=function(){
         jia4.style.position="fixed";
